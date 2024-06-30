@@ -1,0 +1,19 @@
+#
+# Author: Lasse Collin
+#
+# This file has been put into the public domain.
+# You can do whatever you want with this file.
+#
+
+prefix=/Users/shubhamkumar/Desktop/QAchatbot/venv
+exec_prefix=/Users/shubhamkumar/Desktop/QAchatbot/venv
+libdir=/Users/shubhamkumar/Desktop/QAchatbot/venv/lib
+includedir=/Users/shubhamkumar/Desktop/QAchatbot/venv/include
+
+Name: liblzma
+Description: General purpose data compression library
+URL: https://tukaani.org/xz/
+Version: 5.2.6
+Cflags: -I${includedir}
+Libs: -L${libdir} -llzma
+Libs.private: -pthread -lpthread
